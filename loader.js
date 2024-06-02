@@ -55,17 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 
-function waitForJQuery() {
-    if (window.jQuery) {
-        // jQuery is loaded, execute your code
-        $(document).ready(function() {
-            $('#main-content').click(() => {
-                alert('a');
-            });
-        });
-    } else {
-        // jQuery is not loaded yet, wait and check again
-        setTimeout(waitForJQuery, 50);
-    }
-}
-waitForJQuery();    
+$(document).ready(function() {
+        console.warn('Finish');
+});
+

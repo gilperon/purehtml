@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boilerplate</title>
+     <!--jQuery precisa ser colocado nas páginas antes de carregar esse arquivo para garantir que esse arquivo externo esteja baixado antes de parse o html pois o defer apenas obedece external js-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="loader.js" defer></script>
 </head>
 <body>
