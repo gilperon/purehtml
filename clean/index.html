@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boilerplate</title>
+    <script src="loader.js"></script>
+    <script>
+        loadAssets('partials-assets.html');
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 2</title>
+    <script src="loadContent.js"></script>
+</head>
+<body>
+    <div id="header-container"></div>
+    <div id="main-content">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">Aaa</div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="footer-container"></div>
+
+    <script>
+        loadContent('header-container', 'partials-header.html');
+        loadContent('footer-container', 'partials-footer.html');
+    </script>
+</body>
+</html>
